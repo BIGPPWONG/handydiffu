@@ -8,16 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showalert: Bool = false
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            TabView {
+                txt2imgView()
+                    .tabItem {
+                        Label("Txt2Img", systemImage: "text.alignleft")
+                    }
+                img2imgView()
+                    .tabItem {
+                        Label("Img2Img", systemImage: "text.below.photo")
+                    }
+                interrogateView()
+                    .tabItem {
+                        Label("Interrogate", systemImage: "cube.transparent")
+                    }
+                SettingsView()
+                    .tabItem {
+                        Label("Settings", systemImage: "gear")
+                    }
+            }
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
