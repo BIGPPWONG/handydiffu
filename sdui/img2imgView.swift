@@ -116,7 +116,7 @@ struct img2imgView: View {
                                 Text("Generate")
                                     .frame(maxWidth: .infinity)
                             }
-                            .disabled(isProgressing)
+                            .disabled(isProgressing || !inputImgisUploaded)
                             Button {
                                 Task {
                                     interrupt()
