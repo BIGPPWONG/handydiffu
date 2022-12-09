@@ -2,7 +2,12 @@
 ### An iOS client for stable diffusion
 HandyDiffu is a third party client for [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) 
 ## Download
-**[Download from AppStore](https://apps.apple.com/us/app/handydiffu/id6444753824)**
+[![Download from AppStore](appstore.png)](https://apps.apple.com/us/app/handydiffu/id6444753824)   
+**[Download from AppStore](https://apps.apple.com/us/app/handydiffu/id6444753824)**  
+ScreenShot   
+<img src="0.png" width="250">
+<img src="1.png" width="250">
+<img src="2.png" width="250">
 
 ## Additional Features：
 1. Prompt automatic translation ( more than 50 languages supported, powered by MLKit )
