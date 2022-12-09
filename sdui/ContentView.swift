@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @State var showalert: Bool = false
     var body: some View {
-        NavigationView {
             TabView {
                 txt2imgView()
                     .tabItem {
@@ -29,7 +28,7 @@ struct ContentView: View {
                         Label("Settings", systemImage: "gear")
                     }
             }
-        }
+        
     }
 }
 

@@ -17,7 +17,7 @@ struct txtConfigView: View {
     @AppStorage("height") var height = 512.0
     @AppStorage("batchCount") var batchCount = 1.0
     @AppStorage("batchSize") var batchSize = 1.0
-    @AppStorage("cfgScale") var cfgScale = 1.0
+    @AppStorage("cfgScale") var cfgScale = 12.0
     @AppStorage("seed") var seed:Int = -1
     @AppStorage("checkpoint") var checkpoint:String = ""
     @AppStorage("sampler") var sampler: String = "Euler"

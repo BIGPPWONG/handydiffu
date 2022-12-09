@@ -91,6 +91,7 @@ struct interrogateView: View {
                     Button("OK", role: .cancel) { }
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }

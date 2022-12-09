@@ -137,6 +137,7 @@ struct img2imgView: View {
                     }
                 }
             }
+            .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     ShareButton(shareItems: [images[selectedTab]])
